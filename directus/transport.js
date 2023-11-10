@@ -2,7 +2,7 @@ import { logDebug } from "./logger";
 import { promisify } from "./promisify";
 import { Storage } from "./storage";
 import { NeedLoginError, AnotherUserLoginError } from "./errors";
-import { URLSearchParams } from "./url-search-params-polyfill";
+import { URLSearchParams } from "./url-search-params-polyfill"; // eslint-disable-line no-unused-vars
 import jwtDecode from "./jwt-decode";
 
 const directusHost = "https://aclisp.xyz/dir";
@@ -199,6 +199,7 @@ export async function getAccessToken() {
   return storage.accessToken;
 }
 
+// eslint-disable-next-line no-unused-vars
 async function getRefreshToken() {
   const storage = await getToken();
   return storage.refreshToken;
