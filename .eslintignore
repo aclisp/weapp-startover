@@ -1,3 +1,4 @@
 # These are polyfill JavaScript files for WeChat App
 directus/jwt-decode.js
 directus/url-search-params-polyfill.js
+miniprogram_npm/

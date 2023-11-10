@@ -3,7 +3,7 @@ App({
   },
   globalData: {
     userInfo: {
-      userName: 'Hello'
+      userName: 'Hello 你好呀'
     }
   }
 })
